@@ -1,13 +1,3 @@
-provider "azurerm" {
-  version         = "2.15.0"
-  subscription_id = "3d3e800d-3830-4688-93bf-0532fb21dd76"
-  client_id       = "40024f58-0359-4747-92a3-ace00684b411"
-  tenant_id       = "91f3867d-f3a0-41c5-94b6-fe6476f35d42"
-  client_secret   = ".0dOsGOt64ixzaH3X~jGYN99F5svV.Tc-C"
-  features {}
-
-}
-
 resource "azurerm_resource_group" "example" {
   name     = "acceptanceTestResourceGroup1"
   location = "West US"
